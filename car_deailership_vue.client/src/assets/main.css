@@ -1,0 +1,287 @@
+#openMenu {
+    background-color: #19335C;
+    height: 100%;
+    min-height: 100rem;
+    z-index: 9999;
+}
+
+body {
+    background-color: #0F213D;
+}
+
+#logo {
+    width: 10%;
+    height: 50px;
+    width: 50px;
+    margin-left: 20px;
+    margin-top: 10px;
+    object-fit: cover;
+    color: white;
+}
+
+header {
+    background-color: #45679E;
+    padding: 10px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index:9999;
+}
+
+#right {
+    margin-left: 90%;
+}
+
+
+.back {
+    background-color: #141E2E;
+    color: white;
+    border-radius: 18px;
+    margin-bottom: 50px;
+    margin-right: 90px;
+
+
+}
+
+p {
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    color: white;
+    font-size: 16px;
+}
+
+#img {
+    max-width: 100%;
+    margin-top: 8%;
+
+    border-radius: 10px;
+}
+
+#descr {
+    color: #938F8F;
+}
+
+.coast {
+    font-size: 40px;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+
+}
+
+.offcanvas {
+    background-color: #19335C;
+}
+
+#search {
+    background-color: #051228;
+    color: white;
+    margin-bottom: 5%;
+    padding: 1%;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    border-radius: 28px;
+}
+
+#all {
+    border-bottom-left-radius: 33px;
+    border-top-left-radius: 33px;
+    padding: 5px;
+    background-color: #051228;
+    color: white;
+    border-color: white;
+    border-width: 2px;
+    font-size: 20px;
+}
+
+#all:hover {
+    background-color: #052060;
+
+}
+
+
+#old {
+    padding: 5px;
+    background-color: #051228;
+    color: white;
+    border-color: white;
+    border-width: 2px;
+    font-size: 20px;
+}
+
+#old:hover {
+    background-color: #052060;
+
+}
+
+
+#new {
+    border-bottom-right-radius: 33px;
+    border-top-right-radius: 33px;
+    padding: 5px;
+    background-color: #051228;
+    color: white;
+    border-color: white;
+    border-width: 2px;
+    font-size: 20px;
+}
+
+#new:hover {
+    background-color: #052060;
+
+}
+
+.block-1 span {
+    font-size: 20px;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    margin-top: 12px;
+    margin-right: 20px;
+
+}
+
+#inp {
+    width: 100%;
+    font-size: 20px;
+    font-family: "Segoe UI";
+    font-width: bold;
+    margin-top: 12px;
+}
+
+.block-2 span {
+
+    /*margin-top: 12px;*/
+    /*margin-right: 20px;*/
+    margin-bottom: 12px;
+    font-size: 20px;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+}
+
+
+#inline {
+    display: flex;
+    /* display: inline-block; */
+    /* flex-wrap: wrap; */
+    /*align-items: center;*/
+    gap: 10px;
+    width: 100%;
+    font-size: 20px;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    margin-top: 8px;
+
+
+}
+
+#inline label {
+    display: flex;
+    gap: 5px;
+}
+
+#inline input {
+    width: 100%;
+    min-width: 70%;
+}
+
+@media (max-width: 390px) {
+    #inline {
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+}
+
+
+.btn-search{
+
+    padding: 3%;
+    min-width: 178px;
+    font-size: 20px;
+    font-family: "Segoe UI";
+    font-weight: bold;
+    color: white;
+    background-color: #45679E;
+    margin-top: 29px;
+    border-radius: 19px;
+    border-color: #45679E;
+
+
+}
+
+.car{
+    width: 100%;
+    object-fit: cover;
+}
+
+.im-car{
+    padding-right: 4%;
+}
+
+#car-cont{
+    margin-top:3%;
+}
+
+.title span{
+    font-size: 50px;
+    color:white;
+    font-family: "Segoe UI";
+    font-weight: bold;
+}
+
+.coast-car{
+    font-size: 46px;
+    color:white;
+    font-family: "Segoe UI";
+    font-weight: bold;
+}
+
+.btn-buy{
+    width: 100%;
+    font-family: "Segoe UI";
+    font-weight: bold;
+    color: white;
+    background-color: #45679E;
+    border-radius: 19px;
+    border-color: #45679E;
+    margin-top:5%;
+    font-size:20px;
+}
+
+.btn-buy:hover{
+    background-color: #092f9e;
+}
+
+.descriptionCar{
+    width: 100%;
+    background-color: #051228;
+    padding: 3%;
+    border-radius: 12px;
+}
+
+.descriptionCar div {
+    font-size: 25px;
+    font-family: "Segoe UI";
+    font-weight: bold;
+    color:white;
+}
+
+.ds{
+    padding-left: 3%;
+    font-size: 20px;
+}
+
+.carIMG{
+    width: 100%;
+    padding: 6%;
+    border-radius: 13px;
+    z-index: 1;
+}
+
+.gran{
+    border-radius: 15px;
+    z-index: 1;
+}
+
+.linkCar:hover{
+    color:blue;
+}

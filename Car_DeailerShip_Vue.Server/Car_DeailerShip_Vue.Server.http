@@ -1,0 +1,6 @@
+@Car_DeailerShip_Vue.Server_HostAddress = http://localhost:5104
+
+GET {{Car_DeailerShip_Vue.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
