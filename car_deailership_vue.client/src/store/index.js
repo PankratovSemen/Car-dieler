@@ -1,5 +1,5 @@
 import { createStore } from "vuex";
-import authModule from './store/modules/auth.js';
+import authModule from './modules/auth.js';
 
 const store = createStore({
     modules:{

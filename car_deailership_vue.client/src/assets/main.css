@@ -285,3 +285,63 @@ p {
 .linkCar:hover{
     color:blue;
 }
+
+.centobj{
+    left: 30%;
+    margin-top: 3%;
+    border-radius: 20px;
+    position: relative;
+    background-color: #051228;
+    padding-bottom: 4%;
+    padding-top: 2%;
+
+}
+
+.inp100{
+    width: 100%;
+
+}
+
+.titleAuth{
+    color: white;
+    font-family: "Segoe UI";
+    font-weight: bold;
+
+
+
+}
+
+.btn-sign{
+    border-radius: 20px;
+    width: 100%;
+    margin-right: 3%;
+    font-size: 25px;
+    font-family: "Segoe UI";
+    font-weight: bold;
+    color: white;
+    background-color: #45679E;
+}
+.btn-register{
+    background-color:#051228 ;
+    width: 100%;
+    font-family: "Segoe UI";
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+    border-radius: 20px;
+    margin-top:5%
+}
+.inner{
+    display: inline-block;
+    width: 50%;
+}
+
+.spec{
+    visibility: hidden;
+    margin-top: -10px;
+}
+
+
+.reg-box input{
+    width: 100%;
+}

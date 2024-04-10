@@ -14,6 +14,7 @@
     "bootstrap": "^5.3.3",
     "bootstrap-icons": "^1.11.3",
     "lozad": "^1.16.0",
+    "vee-validate": "^4.12.6",
     "vue": "^3.4.21",
     "vue-easy-slider": "^5.3.4",
     "vue-l-carousel": "^1.1.0",
@@ -22,7 +23,9 @@
     "vue-lazyload": "^3.0.0",
     "vue-router": "^4.3.0",
     "vue-ssr-carousel": "^2.4.1",
-    "vue3-carousel": "^0.3.1"
+    "vue3-carousel": "^0.3.1",
+    "vuex": "^4.1.0",
+    "yup": "^1.4.0"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.4",

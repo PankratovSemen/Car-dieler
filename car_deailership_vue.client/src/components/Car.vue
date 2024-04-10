@@ -12,7 +12,7 @@
                {{item.Цена}} RUB
             </span>
 
-            <button class="btn-buy">Купить</button>
+            <button class="btn-buy" @click="buyclick">Купить</button>
             <br>
             <br>
             <div class="descriptionCar">
@@ -61,6 +61,11 @@ export default {
 
                 }
             )
+        },
+        buyclick(){
+            this.$router.push({
+                path:'/AddCar/' + this.$route.params.id
+            })
         }
     },
     mounted: function () {
