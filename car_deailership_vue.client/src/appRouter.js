@@ -18,6 +18,12 @@ const routes = [
     {path: '/dashboard',component: ()=> import('./components/dashbord.vue'),meta: {
             requiredAuth: true
         }},
+    {path: '/dashboard/editorder/:id',component: ()=> import('./components/EditOrder.vue'),meta: {
+            requiredAuth: true
+        }},
+    {path: '/dashboard/createUser',component: ()=> import('./components/UsersAdmin.vue'),meta: {
+            requiredAuth: true
+        }},
     { path: '/404', component: () => import('./components/Home.vue') },
     { path: '/:pathMatch(.*)*', redirect: '/404' },
 
@@ -50,7 +56,7 @@ routeConfig.beforeEach((to,from, next) => {
     if(to.fullPath == "/"){
         return next();
     }
-    else if(auth && !to.meta.requiredAuth && to.fullPath=="/Login"){
+    else if(auth && !to.meta.requiredAuth && to.fullPath=="/login"){
         return next({path:"/dashboard"});
     }
     else if(!auth && to.meta.requiredAuth){

@@ -11,7 +11,7 @@
                 </svg>
             </div>
             <div class="col-6">
-                <a id="right">fwfw</a>
+
             </div>
         </div>
     </header>
@@ -22,7 +22,10 @@
             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Закрыть"></button>
         </div>
         <div class="offcanvas-body">
-            <p>Попробуйте прокрутить оставшуюся часть страницы, чтобы увидеть эту опцию в действии.</p>
+            <a class="white" @click="main">Главная</a>
+            <br>
+
+            <a class="white" @click="lk">Личный кабинет</a>
         </div>
     </div>
   <keep-alive>
@@ -45,6 +48,16 @@ export default {
             } else {
                 this.isOpen = false;
             }
+        },
+        main(){
+            this.$router.push({
+                path:'/'
+            })
+        },
+        lk(){
+            this.$router.push({
+                path:'/dashboard'
+            })
         }
     }
 }

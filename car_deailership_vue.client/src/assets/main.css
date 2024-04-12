@@ -345,3 +345,20 @@ p {
 .reg-box input{
     width: 100%;
 }
+
+edit-btn{
+    border-radius: 20px;
+    background-color: #938F8F;
+}
+
+a{
+    color:white;
+    font-size: 18px;
+
+}
+
+.white{
+    color:white;
+    font-size: 25px;
+    text-align: center;
+}
